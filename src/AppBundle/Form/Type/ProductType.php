@@ -15,6 +15,7 @@ class ProductType extends AbstractType
     {
         $builder
             ->add('title', TextType::class)
+            ->add('name', TextType::class)
             ->add('available', DateTimeType::class)
             ->add('description', TextareaType::class)
             ->add('save', SubmitType::class)

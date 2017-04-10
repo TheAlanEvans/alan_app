@@ -29,8 +29,7 @@ class FormExampleController extends Controller
             $em->persist($product);
             $em->flush();
         }
-
-
+        
         return $this->render(':form-example:index.html.twig',[
             'form' => $form->createView()
         ]);
