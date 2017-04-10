@@ -17,7 +17,7 @@ The Symfony Standard Edition is configured with the following defaults:
   * Twig as the only configured template engine;
 
   * Doctrine ORM/DBAL;
-
+egg
   * Swiftmailer;
 
   * Annotations enabled for everything.
