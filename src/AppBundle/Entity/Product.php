@@ -20,6 +20,11 @@ class Product
     /**
      * @ORM\Column(type="string")
      */
+    protected $name;
+
+    /**
+     * @ORM\Column(type="string")
+     */
     protected $title;
 
     /**
@@ -32,7 +37,7 @@ class Product
      */
     protected $description;
 
-    
+
 
 
 
@@ -45,7 +50,7 @@ class Product
     }
 
     /**
-     * return mixed
+     * @return mixed
      */
     public function getTitle()
     {
@@ -59,6 +64,25 @@ class Product
     public function setTitle($title)
     {
         $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param mixed $name
+     * @return Product
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
 
         return $this;
     }
