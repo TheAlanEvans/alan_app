@@ -1,4 +1,4 @@
-Symfony Standard Edition?
+Symfony Standard Edition withs eggs?
 ========================
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony
