@@ -32,6 +32,8 @@ class Product
      */
     protected $description;
 
+    
+
 
 
     /**
