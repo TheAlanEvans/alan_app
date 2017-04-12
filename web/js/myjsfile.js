@@ -1,9 +1,3 @@
-
-function myFunction() {
-    alert("I am an alert box!");
-}
-
-
 // Get the modal
 var modal = document.getElementById('myModal');
 
